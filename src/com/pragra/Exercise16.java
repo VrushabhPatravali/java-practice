@@ -1,4 +1,4 @@
-package com.practice;
+package com.pragra;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

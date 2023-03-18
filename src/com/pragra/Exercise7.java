@@ -1,4 +1,4 @@
-package com.practice;
+package com.pragra;
 
 public class Exercise7 {
  
