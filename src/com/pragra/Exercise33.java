@@ -20,21 +20,11 @@ public class Exercise33 {
             System.out.println("Please enter the second number: ");
             double y = sc.nextDouble();
             switch (userInput) {
-                case 1:
-                    System.out.println(addition(x, y));
-                    break;
-                case 2:
-                    System.out.println(subtraction(x, y));
-                    break;
-                case 3:
-                    System.out.println(multiplication(x, y));
-                    break;
-                case 4:
-                    System.out.println(division(x, y));
-                    break;
-                case 5:
-                    System.out.println(modulus(x, y));
-                    break;
+                case 1 -> System.out.println(addition(x, y));
+                case 2 -> System.out.println(subtraction(x, y));
+                case 3 -> System.out.println(multiplication(x, y));
+                case 4 -> System.out.println(division(x, y));
+                case 5 -> System.out.println(modulus(x, y));
             }
         }
     }
