@@ -13,6 +13,7 @@ public class Exercise33 {
             if (userInput == 0) {
                 break;
             } else if (userInput != 1 && userInput != 2 && userInput != 3 && userInput != 4 && userInput != 5) {
+                System.err.println("Invalid input. Please try again!");
                 continue;
             }
             System.out.println("Please enter the first number: ");
