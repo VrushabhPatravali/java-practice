@@ -1,4 +1,4 @@
-package com.pragra.constructorPractice;
+package com.pragra.encapsulationPractice;
 
 public class Student2 {
     private static final String school = "pragra";
