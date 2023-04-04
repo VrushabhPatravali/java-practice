@@ -1,4 +1,5 @@
 package com.pragra.encapsulationPractice;
+
 // initializing school as a constant in all objects
 public class Student1 {
     private final String school;
