@@ -48,9 +48,23 @@ public class Main {
 
         }
         System.out.println("---------------------------------------------------------------------");
+        int itemCount1 = 0, itemCount2 = 0, itemCount3 = 0 , itemCount4 = 0, itemCount5 = 0;
         for (int i = 0; i < orderNumber.size(); i++) {
             System.out.println(orderNumber.get(i));
+            if (orderNumber.get(i) instanceof VegPizza) {
+                itemCount1++;
+            } else if (orderNumber.get(i) instanceof MeatLoversPizza) {
+                itemCount2++;
+            } else if (orderNumber.get(i) instanceof CheesePizza) {
+                itemCount3++;
+            } else if (orderNumber.get(i) instanceof GarlicBread) {
+                itemCount4++;
+            } else if (orderNumber.get(i) instanceof BecksBeer) {
+                itemCount5++;
+            }
+
         }
+
         double totalPrice = 0;
         int totalCalories = 0;
         for (int j = 0; j < orderNumber.size(); j++) {
@@ -58,8 +72,29 @@ public class Main {
             totalCalories += orderNumber.get(j).getItemCalories();
         }
         System.out.println("---------------------------------------------------------------------" +
+                "\nYou ordered: " + itemCountPrint(itemCount1, itemCount2, itemCount3, itemCount4, itemCount5) +
                 "\nTotal: $" + totalPrice + "\nTotal Calories: " + totalCalories + "cal\n" +
                 "---------------------------------------------------------------------");
 
+    }
+
+    public static String itemCountPrint(int itemCount1, int itemCount2, int itemCount3, int itemCount4, int itemCount5) {
+        String count = "";
+        if (itemCount1 != 0) {
+            count = count.concat(itemCount1 + " Veg Pizza ");
+        }
+        if (itemCount2 != 0) {
+            count = count.concat(itemCount2 + " MeatLovers Pizza ");
+        }
+        if (itemCount3 != 0) {
+            count = count.concat(itemCount3 + " Cheese Pizza ");
+        }
+        if (itemCount4 != 0) {
+            count = count.concat(itemCount4 + " Garlic Bread ");
+        }
+        if (itemCount5 != 0) {
+            count = count.concat(itemCount5 + " Beck's Beer ");
+        }
+        return count;
     }
 }
