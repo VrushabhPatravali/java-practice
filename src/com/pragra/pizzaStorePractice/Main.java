@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<PizzaStore> orderNumber = new ArrayList<PizzaStore>();
-
+        //we can also initialize int array here of the size of the number of items we have
+        //and then increment indexes of this array in the switch to print the number of items purchased later
         while (true) {
             Scanner sc = new Scanner(System.in);
             System.out.print("----------------------------Pizza Store------------------------------" +
