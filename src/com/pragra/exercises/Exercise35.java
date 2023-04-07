@@ -6,7 +6,8 @@ public class Exercise35 {
         System.out.println("*");
         System.out.println("*");
         System.out.println("*");
-        System.out.println("*");
+        System.out.println("-");
+        System.out.println("-");
         System.exit(7); // Process finished with exit code 7
         System.out.println("*");
         System.out.println("*");
