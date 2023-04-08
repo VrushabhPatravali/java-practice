@@ -10,6 +10,10 @@ package com.pragra.ArrayListPractice;
      *          internal data structure: red black binary tree
      * HashSet: 1 null allowed, unordered
      *          internal data structure: same as HashMap
+     * Map Interface, SortedMap Interface
+     * HashMap: internal data structure: key value pair
+     * LinkedHashMap:
+     * TreeMap:
      */
 
 import java.util.List;
