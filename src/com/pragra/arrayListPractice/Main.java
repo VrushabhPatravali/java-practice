@@ -1,4 +1,4 @@
-package com.pragra.ArrayListPractice;
+package com.pragra.arrayListPractice;
     /**
      * List Interface
      * ArrayList: ordered by insertion order
@@ -14,6 +14,8 @@ package com.pragra.ArrayListPractice;
      * HashMap: internal data structure: key value pair
      * LinkedHashMap:
      * TreeMap:
+     * List -> Collections -> iterator()
+     * Map -> entrySet()
      */
 
 import java.util.List;

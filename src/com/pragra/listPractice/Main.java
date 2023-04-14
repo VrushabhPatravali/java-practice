@@ -1,4 +1,4 @@
-package com.pragra.ListPractice;
+package com.pragra.listPractice;
 
 import java.util.*;
 
